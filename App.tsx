@@ -1,4 +1,5 @@
 import React from 'react';
+import { LogBox } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
@@ -11,11 +12,14 @@ import { ThemeProvider } from 'styled-components/native';
 import theme from './src/styles/theme';
 
 export default function App() {
+
+  LogBox.ignoreLogs(['Remote debugger']);
+
   const [isLoaded] = useFonts({
     DMSans_400Regular,
     DMSans_700Bold
   })
-  
+
   if (!isLoaded) {
     return <AppLoading />
   }

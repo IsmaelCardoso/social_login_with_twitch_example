@@ -1,10 +1,10 @@
 {
-  "name": "stream.data",
-  "displayName": "stream.data",
+  "name": "loginsocialexemple",
+  "displayName": "loginsocialexemple",
   "expo": {
-    "name": "stream.data",
-    "scheme": "stream.data",
-    "slug": "streamData",
+    "name": "loginsocialexemple",
+    "scheme": "loginsocialexemple",
+    "slug": "loginsocialexemple",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
